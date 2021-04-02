@@ -45,7 +45,7 @@ add_executable(hello_world examples/hello_world.c)
 # plugin 自动生成的 add_executable
 
 add_executable(alg.cslink.cycle_check algs/alg.cslink.cycle_check.c)
-add_executable(alg.cslink.combine algs/alg.cslink.combine.c)
+add_executable(alg.cslink.combine algs/alg.cslink.merge.c)
 add_executable(alg.cslink.reverse algs/alg.cslink.reverse.c)
 add_executable(eg.test examples/eg.test.c)
 add_executable(alg.cslink.test algs/alg.cslink.test.c)

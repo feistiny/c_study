@@ -41,10 +41,8 @@ cslink *cslink_combine(cslink *head1, cslink *head2)
 
 int main()
 {
-    char *str1 = "abc";
-    cslink *head1 = cslink_init(str1);
-    char *str2 = "a";
-    cslink *head2 = cslink_init(str2);
+    cslink *head1 = cslink_init("abc");
+    cslink *head2 = cslink_init("a");
 
     cslink *head = cslink_combine(head1, head2);
     cslink_print(head);

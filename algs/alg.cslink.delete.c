@@ -4,8 +4,7 @@
 // 删除链表倒数第 n 个结点
 int main()
 {
-    char *str = "abcdcba";
-    cslink *head = cslink_init(str);
+    cslink *head = cslink_init("abcdcba");
 
     cslink_print(head);
     printf("\n");

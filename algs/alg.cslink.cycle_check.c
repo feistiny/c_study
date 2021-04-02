@@ -40,9 +40,7 @@ cslink *cslink_cycle_check(cslink *head)
 
 int main()
 {
-    int count;
-    char *str = "abcde";
-    cslink *head = cslink_init(str);
+    cslink *head = cslink_init("abcde");
 
     cslink *last = cslink_last(head);
     last->next = cslink_get(head, 2);

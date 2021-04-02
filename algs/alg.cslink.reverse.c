@@ -4,8 +4,7 @@
 // 单链表反转
 int main()
 {
-    char *str = "abcd";
-    cslink *head = cslink_init(str);
+    cslink *head = cslink_init("abcd");
     cslink_print(cslink_reverse(head));
 }
 
